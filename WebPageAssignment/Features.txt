@@ -1,0 +1,5 @@
+NavMenu with banner and title
+form with validation of fields using javascript made with bootstrap grid
+homepage- bootstrap cards
+equipment page - bootstrap accordian
+ 

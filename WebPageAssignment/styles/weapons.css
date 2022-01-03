@@ -1,0 +1,76 @@
+.headerimage {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mhValstrax.jpg");
+  background-position: center;
+}
+
+h1, h2 {
+  text-decoration: underline;
+}
+
+iframe#weaponexplained {
+  margin:2%;
+  border: 3px solid black;
+  padding: 0;
+}
+
+.btn {
+  font-size: 0.8em;
+}
+
+.card {
+  width: 99%;
+  margin: auto;
+}
+
+.card-header {
+  background: lightgray;
+  border: none;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 1%;
+}
+
+p#desc {
+  padding:0;
+  font-size: 25px;
+  width:45%;
+  margin-left: 20px;
+  background-color: #fcc86f;
+  border: 5px solid;
+  text-align: center;
+  float:none;
+}
+
+#weaponno {
+  font-weight: 600;
+  color: darkred;
+}
+
+.weapons {
+  font-weight: 600;
+  color: red;
+}
+
+#weaponstyles {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.weaponpara {
+  display:inline-block;
+  background: #fcc86f;
+}
+
+.weapondesc {
+  float:left;
+  width:60%;
+}
+
+.weaponvideos {
+  margin-right: 8%;
+  float:right;
+  width:20%;
+  height:189px;
+}

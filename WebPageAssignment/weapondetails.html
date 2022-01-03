@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width = device-width, initial-scale = 1">
+  <title>Player Information</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/navmenu.css">
+  <link rel="stylesheet" href="styles/weapons.css">
+
+</head>
+
+<body>
+  <div class="headerimage">
+    <div class="headertext">
+      <p>Monster Hunter Fanpage</p>
+    </div>
+  </div>
+  <ul id="menu">
+    <li class="link-item"><img src="images/mhLogo.png" alt="Monster Research Commission Logo"></li>
+    <li class="link-item"><a href="homepage.html">Home</a></li>
+    <li class="link-item"><a href="monsters.html">Monsters</a></li>
+    <li class="link-item"><a href="" class="current">Equipment</a></li>
+    <li id="form-page"><a href="form.html">Contact Us</a></li>
+  </ul>
+    <main>
+      <section>
+        <h1>Equipment Information</h1>
+        <p id="desc">You play as a hunter in monster hunter, equipping different armors and weapon types to best suit your playstyle. There are <span id="weaponno">14</span> weapon types, <span class="weapons">11</span> melee weapons and <span class="weapons">3</span> ranged weapons. The weapons and armor are usually made from parts you collected form the monsters you have hunted.</p>
+        <h2>Armor</h2>
+        <p>
+          Armor is used to enhance defense and provide armor skills, which can allow you to do more damage or survive attacks better. You can equip jewels and charms/tailmans to further increase armor skills. <br> You can equip defensive armor skills such as the health boost armor skill, which increases your maximum health, divine blessing armor skill, which gives you a chance to take less damage from a monster's attack and evade extender, which makes you dodge a longer distance and making it easier to avoid a monster's attack. You can also equip attack skills like the attack boost skill that increases the base damage that you do.
+        </p>
+        <h2>Weapons</h2>
+        <h3>There are 14 different weapon styles</h3>
+        <p>Each weapon plays differently and have unique features to them. <br>Watch this video to get the basic understanding of each weapon.</p>
+        <iframe id="weaponexplained" width="446" height="252" src="https://www.youtube.com/embed/JycMIKonIZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Open each section below to find out more about a specific weapon.</p>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="greatsword-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#greatsword" aria-expanded="true" aria-controls="greatsword">
+                  1. Greatsword
+                </button>
+              </h3>
+            </div>
+            <div id="greatsword" class="collapse" aria-labelledby="greatsword-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class = "weapondesc">
+                  The greatsword is a heavy weapon that does slashing damage. You have lesser mobility with your weapon drawn but you do more damage per hit than any other weapon.The greatsword moves primarily consists of three levels of charged attacks. Elemental damage is not recommended as element is better applied with multiple fast hits.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/X2vr8M3lQ88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="longsword-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#longsword" aria-expanded="true" aria-controls="longsword">
+                  2. Longsword
+                </button>
+              </h3>
+            </div>
+            <div id="longsword" class="collapse" aria-labelledby="longsword-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The longsword is a fast slashing weapon. You have good mobility and great techniques for dodging and countering monster attacks. Longswords main mechanics involve the use of the spirit gauge which allows you to use spirit attacks that deal more damage and cannot be deflected. There are also three levels of spirt gauges that increase your overall damage, the higher the level, the more damage.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/e86lHq-03H4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="hammer-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#hammer" aria-expanded="true" aria-controls="hammer">
+                  3. Hammer
+                </button>
+              </h3>
+            </div>
+            <div id="hammer" class="collapse" aria-labelledby="hammer-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The hammer is a hard-hitting blunt weapon that can stun and knockout monsters easily. It is a hit-and-run weapon where you charge up for a large hit to the head to deal stun damage and run away and repeat. Since the hammer is a blunt weapon, it does stun damage when hitting monsters on the head. Stunning a monster give you a large window of opening to whale on the monster.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/cFXur8ygRYM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="huntinghorn-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#huntinghorn" aria-expanded="true" aria-controls="huntinghorn">
+                  4. Hunting Horn
+                </button>
+              </h3>
+            </div>
+            <div id="huntinghorn" class="collapse" aria-labelledby="huntinghorn-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The hunting horn is a support blunt weapon that can knockout monsters easily similar to the hammer. The hunting horn is unique as each of its attacks add a note to your stage. With a certain pattern of notes, you can play a melody that does blunt damage and gives buffs to your team. However, this weapon has low mobility and defense.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/dpy8rP9946Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="lance-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#lance" aria-expanded="true" aria-controls="lance">
+                  5. Lance
+                </button>
+              </h3>
+            </div>
+            <div id="lance" class="collapse" aria-labelledby="lance-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The lance is a poking weapon that has low mobility but extremely high defense. Your attacks consists of poking forward and poking upwards. However, you can counter an attack by blocking it and then unleashing a more damaging poke. You can also charge to traverse long distances for chasing a monster.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/YnTvdDxO5ZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="gunlance-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#gunlance" aria-expanded="true" aria-controls="gunlance">
+                  6. Gunlance
+                </button>
+              </h3>
+            </div>
+            <div id="gunlance" class="collapse" aria-labelledby="gunlance-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The gunlance is similar to the lance but its defense is slightly worse in trade of high attack power. You also have less poking options but you receive shellings, which can be used to fire off blasts that deal damage from a mid range distance. There are three types of shellings, wide, normal and long, each with their own unique properties. The gunlance has the same amount of mobility as the lance.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/gBUA5WtwKFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="heavybowgun-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#heavybowgun" aria-expanded="true" aria-controls="heavybowgun">
+                  7. Heavy Bowgun
+                </button>
+              </h3>
+            </div>
+            <div id="heavybowgun" class="collapse" aria-labelledby="heavybowgun-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The heavy bowgun is one of the three ranged weapons in the game. It can fire off a set amount of different types of ammo and your playstyle can differ depending on what ammo you use primarily. Bowguns have a unique feature to them, allowing you to customise the bowgun with mods. These mods can do things like decreasing recoil to decreasing reload times. Although the heavy bowgun has low mobility, a shield mod can be equipped that automatically shields you whenever you are not firing. This is how heavy bowgun players usually defend themselves.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/aK5npTZpSyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="lightbowgun-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#lightbowgun" aria-expanded="true" aria-controls="lightbowgun">
+                  8. Light Bowgun
+                </button>
+              </h3>
+            </div>
+            <div id="lightbowgun" class="collapse" aria-labelledby="lightbowgun-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The light bowgun is similar to the heavy bowgun. However, it can hold lesser ammo per round and has different mods that can be equipped. As compared to the heavy bowgun, the light bowgun has higher mobility and can usually fire faster although with more recoil. They also do not have the shield mod as their mobility is their main form of defense. Instead, they have a mod that helps to compensate for the small ammo rounds, the evading reload mod. It allows you to reload your ammo just by sliding and evading, doubling as a utility and a dodge.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/Cb2zz_YuA4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="bow-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#bow" aria-expanded="true" aria-controls="bow">
+                  9. Bow
+                </button>
+              </h3>
+            </div>
+            <div id="bow" class="collapse" aria-labelledby="bow-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The bow is a mid-range weapon capable of swiftly unleashing waves of arrows on the monster. As the bow is a fast attacking weapon, it is a good choice to use elements as the elements stack with every hit. The bow can use different coatings as well to inflict statuses like paralysis and poison quickly and effectively. The bow also has a special attack that allows for a supercharged arrow called the dragonpiercer, which tears through a monster's body and deals damage based on how long the body part you hit is. This dragonpiercer also does slicing damage so it is able to cut off a monster's tail easily.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/NBi-hw4edbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="insectglaive-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#insectglaive" aria-expanded="true" aria-controls="insectglaive">
+                  10. Insect Glaive
+                </button>
+              </h3>
+            </div>
+            <div id="insectglaive" class="collapse" aria-labelledby="insectglaive-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The insect glaive is a spear-like weapon that attacks fast and works in cojunction with a kinsect. The kinsect is an insect that can collect kinsect essences for you to provide you with buffs and change your attacks. With the insect glaive, you attack fast without the kinsect extract but with kinsect extract, you not only have faster attacks but also have higher damage and higher defense. Another feature of the insect glaive is that you can vault into the air to do aerial moves and deal mounting damage. When enough mounting damage is done, you get the chance to ride and topple the monster, giving you a large opening to attack.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/NFmi1NhaQyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="switchaxe-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#switchaxe" aria-expanded="true" aria-controls="switchaxe">
+                  11. Switch Axe
+                </button>
+              </h3>
+            </div>
+            <div id="switchaxe" class="collapse" aria-labelledby="switchaxe-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The switch axe is a transforming weapon that can change between an axe and a sword. The axe mode hits fast and does partbreaking damage allowing you to easily destroy body parts. The sword mode allows for swift strong attacks but low mobility. The sword mode also has a charge bar that is filled up by attacking. Once filled, the charge can be released through a large explosion.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/JAginR5oAec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="chargeblade-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#chargeblade" aria-expanded="true" aria-controls="chargeblade">
+                  12. Charge Blade
+                </button>
+              </h3>
+            </div>
+            <div id="chargeblade" class="collapse" aria-labelledby="chargeblade-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The charge blade is the most complicated weapon in the game. It allows you to charge up heat in your sword in the sword and shield mode and this heat can be used to charge your shield, giving greater defensive capabilities and the phials that store the heat can be unleashed to cause mini explosions that deal impact or elemental damage on the monster. The sword and shield form can also change into an axe form that makes use of charged phials to deal more damage.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/hvlVtfSzO2Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="swordnshield-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#swordnshield" aria-expanded="true" aria-controls="swordnshield">
+                  13. Sword &amp; Shield
+                </button>
+              </h3>
+            </div>
+            <div id="swordnshield" class="collapse" aria-labelledby="swordnshield-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The sword and shield is the most beginner-friendly weapon to play. With no special features or tricks, the sword and shield is basic good defense, good attack weapon that can be easily learned. The sword and shield also has a feature that allows you to use items without sheathing your weapons which give you less downtime when using items. The sword and shield is also a fat hitting weapon which means that elemental damage is recommended.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/lz624ugG4Lg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="dualblades-title">
+              <h3>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#dualblades" aria-expanded="true" aria-controls="dualblades">
+                  14. Dual Blades
+                </button>
+              </h3>
+            </div>
+            <div id="dualblades" class="collapse" aria-labelledby="dualblades-title" data-parent="#accordion">
+              <div class="weaponpara card-body">
+                <p class="weapondesc">
+                  The dual blades are a set of two swords that can be spun and slashed with rapidly with a press of a button. The dual blades' unique feature is the demon mode which increase your mobility, your attack speed and your damage. However, the demon mode slowly depletes your stamina. If your stamina runs too low, you may be unable to dodge which may put you in a dangerous spot. The dual blades are also the fastest attacking weapons in the game. As such, the dual blades are highly recommended to be played with elemental damage.
+                </p>
+                <iframe class="weaponvideos" src="https://www.youtube.com/embed/GUowVxDGeiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a class="btn btn-link" href="#top">Back to top</a>
+    </footer>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

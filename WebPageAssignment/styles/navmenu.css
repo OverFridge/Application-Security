@@ -1,0 +1,78 @@
+@font-face {
+  font-family: mh;
+  src: url(../font/MHfont.ttf);
+}
+
+html, body {
+  height:100%;
+  font-family: sans-serif;
+}
+
+.headerimage {
+  height:50%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin:0;
+}
+
+.headertext p {
+  text-align: center;
+  position: absolute;
+  top:45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: mh;
+  font-size: 6em;
+}
+
+ul#menu {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #6fa3fc;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+
+#menu li img {
+  height: 60px;
+  width: 55px;
+}
+
+.link-item {
+  float: left;
+  font-family: mh;
+  font-size: 35px;
+}
+
+#form-page {
+  float:right;
+  font-family: mh;
+  font-size: 35px;
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  background-color: #92baff;
+}
+
+.current {
+  background-color: #92baff;
+}
+
+footer {
+  text-align: center;
+  background: darkgray;
+  margin-top: 20px;
+}
